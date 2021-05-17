@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:FFFFFF;
+    text-align:center;
+}
+
+.registerinbox{
+    width: 320px;
+    height: 460px;
+    background: #EEE8AA;
+    color: #000000;
+    top: 50%;
+    left: 50%;
+	margin-top:80px;
+	margin-bottom:80px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+
+
+h1{
+    margin: 0px;
+    padding:0px;
+    text-align: center;
+    font-size: 22px;
+}
+.registerinbox p{
+    margin: 0;
+    padding: 5px;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+
+.registerinbox input{
+    width: 100%;
+	
+}
+
+.registerinbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 18px;
+    color: #fff;
+	
+    font-size: 16px;
+}
+.registerinbox input[type="submit"]
+{
+   border: none;
+    height: 45px;
+    background:#EEE8AA ;
+    color:#000000;
+    font-size: 18px;
+	border-radius: 20px;
+}
+.registerinbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000000;
+}
+
+
+
+.nav{
+	background:#87CEFA;
+	height:75px;  
+	padding-top :10px ; 
+	text-align: left;
+}
+.nav li{
+			list-style-type: none;
+			display: inline;
+			margin-left:10px;
+			margin-top:20px;
+			padding:20px;
+			
+}
+.nav a{
+			text-decoration: none;
+			font-size: 22px;
+			color:#000000;
+			font-weight: bold;
+}
+.nav a:hover{	
+			font-size: 22px;
+			color: yellow;
+}
+.main{
+	background:#F0F8FF;
+	height:1100px;
+}
+.nav u1{
+	margin:0;
+	padding:0;
+	height:auto;
+}
+.nav u1 li{
+	list-style:none;
+	display:inline-block;
+	float:left;
+}
+.nav ul li a{
+	width:110px;
+	margin:15px;
+	
+	padding:20px;
+	
+}
